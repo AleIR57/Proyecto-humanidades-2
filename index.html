@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="whatsapp.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -26,22 +27,22 @@
     </a>
     
     <div class="container-fluid p-0">
-        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
-            <div class="container">
-              <button class="navbar-toggler" type="button" data-toggle="collapse">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <a class="navbar-brand" href="index.html"> Comedogs</a>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto w-100 justify-content-end">
-                    <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">A cerca de</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Fotos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-dark navbar-expand-sm fixed-top" id = "menu">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"> Comedogs</a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto w-100 justify-content-end">
+                <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">A cerca de</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Fotos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
           
         <div class="row justify-content-center align-items-center waverow nx-0">
             <div class="col-lg-5">
@@ -62,8 +63,9 @@
     
     <div class="ubicacion">
         <h4 class = "text-justify">Ubicación geográfica</h4>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7965.274490163498!2d-76.4804013653766!3d3.4381195162204436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a76de9c16e23%3A0xecc5530b25fe4d33!2sCra.%2026b%201%2C%20Cali%2C%20Valle%20del%20Cauca!5e0!3m2!1ses!2sco!4v1636224804105!5m2!1ses!2sco" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7965.274490163498!2d-76.4804013653766!3d3.4381195162204436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a76de9c16e23%3A0xecc5530b25fe4d33!2sCra.%2026b%201%2C%20Cali%2C%20Valle%20del%20Cauca!5e0!3m2!1ses!2sco!4v1636224804105!5m2!1ses!2sco" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" class = "mapa"></iframe>
+    
+      </div>
 
 
     <div class = "container-introduccion">
@@ -77,12 +79,26 @@
 
     <div class = "container-adopcion"
 
+
+    <div class = "container-razondeser">
+      <h4>
+        Problemática o razón de ser
+      </h4>
+      <p>
+        Se sabe que en muchas ocasiones las personas abandonan a sus mascotas (gatos o perros) en diferentes sitios de la ciudad, principalmente en las galerías de Cali. Existen leyes contra el maltrato y abandono animal, como también existen fundaciones que se encargan de recoger a estos animalitos y generan un proceso para llegar a la adopción por parte de una familia. La ADOPCIÓN de mascotas es una solución para brindar mejor vida a los animales callejeros, es la forma de brindarle una segunda oportunidad a estos seres vivos que, sin poder mencionar una sola palabra, demuestran la alegría y el agradecimiento de pertenecer a un hogar. Existen algunas entidades creadas para estos fines que se preocupan por los llamados “PELUDOS HUÉRFANOS” y brindan albergues, alimentación, salud entre muchas ayudas, incluyendo orientación a las personas que quiere ingresar en el programa de adopción a estos animales
+      </p>
+      <img src="Imagenes/KT67ZSa.jpeg" alt="">
+      <p>
+        Un claro ejemplo de esto es que el pasado 27 de julio del 2021 se celebró el día internacional del perro callejero, este día se creó para crear conciencia de la mala vida que llevan estos animales exiliados a la calle. Cabe recordar que la cifra de perros atropellados va en aumento. Estos seres vivos que en muchas ocasiones son víctimas de abandono de sus familias (catalogando al animal como parte de un hogar), la mayoría nacen y crecen en la calle, donde finalmente mueren por golpes de personas inconscientes, de hambre, de frío y de intolerancia por no entender que no son una plaga para la sociedad. Adicional a esto, también existen gatos callejeros, los cuales presentan la misma problemática que los caninos, de abandono, de reproducción excesiva, entre otros problemas que no parece tener una solución definitiva por parte de las entidades gubernamentales.
+      </p>
+    </div>
+
     <header >
-        <div class="container">
+        <div class="container-adopcion-2">
           <div class="row row-header ">
             <div class="col-12 col-sm-12">
               <h1 class = "title-header">ADOPCIÓN</h1>
-              <P>Descripción</P>
+              <P>Todo sobre el proceso para adoptar una mascota</P>
             </div>
             <div class="col-12 col-sm-6 align-self-center">
               <div class="col-12">
@@ -99,8 +115,7 @@
             <div class="col-12 col-sm align-self-center">
               <!--Imagen de interent, las que tomaron quedan fea aqui-->
               <img src="Imagenes/bann-hm-poll.png" class="image-fluid">
-              <p>¡Obten más información de cómo adoptar!</p>
-              <a href="#" class = "link-read">Leer más</a>
+              <p>¡Queremos ayudarte a encontrar a tu nueva mascota!</p>
           </div>
           </div> 
         </div>
@@ -157,6 +172,51 @@
       
             </div>
 
+            <div class = "container-leyes">
+              <h2>¿Qué dice la ley sobre el abandono de mascotas?</h2>
+              <p>Se realizó la evaluación en diferentes artículos los cuales hablan sobre el maltrato, abandono y muerte violenta de las mascotas, y solo se encuentra una sola ley aprobada por el congreso de la república de Colombia que - según información de Internet - fue creada para el cuidado de los animales.
+                
+              </p>
+              <p>
+                Este decreto gubernamental defiende a los animales callejeros y exige algunos parámetros que deben tener en cuenta las personas que tienen o que piensan tener mascotas.
+              </p>
+              <p>
+                Algunos puntos claves de la ley establecen obligaciones por parte del poseedor de la mascota y penaliza el maltrato que se da a la mascota por cualquier índole.
+              </p>
+              <p>
+                Para apoyar este hecho muy poco conocido por las personas, agregó uno de los artículos más importantes de la LEY 1774 de enero del 2016 del código civil y el código penal.
+              </p>
+              <h5>
+                Título 1. Ley 1774 de enero del 2016
+              </h5>
+              <ul>
+                <li>a)	 Protección al animal. El trato a los animales se basa en el respeto, la solidaridad, la compasión, la ética, la justicia, el cuidado, la prevención del sufrimiento, la erradicación del cautiverio y el abandono, así como de cualquier forma de abuso, maltrato, violencia, y trato cruel.</li>
+                <li>
+                  b)	 Bienestar animal. En el cuidado de los animales, el responsable o tenedor de ellos aseguran como mínimo:
+                  <ul>
+                    <li>
+                      Que no sufran hambre ni sed.
+                    </li>
+                    <li>
+                      Que no sufran injustificadamente malestar físico ni dolor.
+                    </li>
+                    <li>
+                      Que no les sean provocadas enfermedades por negligencia o descuido
+                    </li>
+                    <li>
+                      Que no sean sometidos a condiciones de miedo ni estrés
+                    </li>
+                    <li>
+                      Que puedan manifestar su comportamiento natural
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  c) Solidaridad social. El Estado, la sociedad y sus miembros tienen la obligación de asistir y proteger a los animales con acciones diligentes ante situaciones que pongan en peligro su vida, su salud o su integridad física. Asimismo, tienen la responsabilidad de tomar parte activa en la prevención y eliminación del maltrato, crueldad y violencia contra los animales; también es su deber abstenerse de cualquier acto injustificado de violencia o maltrato contra estos y denunciar aquellos infractores de las conductas señaladas de los que se tenga conocimiento.
+                </li>
+              </ul>
+            </div>
+
             <div class = "galeria-container">
 
       
@@ -201,10 +261,10 @@
             
             <div class="container-staff">
                 <h1 class = "heading"><span>
-                    Conoce
-                </span>
-            Nuestro personal</h1>
-
+                    ¿Cuántas personas componen el comedor?
+                </span></h1>
+         <p class = "parrafo-container-staff">El comedor está compuesto por cuatro personas, un grupo de amigas se conocieron en la labor de ayudar a los animales, reuniendo ideas; cada animal que llega es responsabilidad de las cuatro personas. Para el sustento de los rescatados lo que hacen generalmente en realizar ventas de cualquier emprendimiento, por ejemplo, en diciembre realizan venta de faroles navideños, de acuerdo a la temporada rebuscan que vender, pero lastimosamente la colaboración de estos gubernamentales nunca se da, entonces siempre acuden a donaciones de las personas que quieran colaborar.</p>
+            <p class = "parrafo-container-staff">Si quieres colaborar, a continuación te dejamos a cada una de las integrantes del comedor junto con su NEQUI para recibir donaciones:</p>
             <div class="profiles">
                 <div class="profile">
                     <img src="Imagenes/img1.jpg" alt="" class = "profile-img">
@@ -214,6 +274,14 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit eligendi culpa iste vel provident dolore, eaque commodi voluptatibus placeat, rerum nesciunt in, quos sint soluta? Exercitationem repudiandae ullam aut?
                     </p>
                 </div>
+                <div class="profile">
+                  <img src="Imagenes/img1.jpg" alt="" class = "profile-img">
+                  <h3 class = "user-name">Alejandro</h3>
+                  <h5>dsadasdas</h5>
+                  <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit eligendi culpa iste vel provident dolore, eaque commodi voluptatibus placeat, rerum nesciunt in, quos sint soluta? Exercitationem repudiandae ullam aut?
+                  </p>
+              </div>
                 <div class="profile">
                     <img src="Imagenes/img2.jpg" alt="" class = "profile-img">
                     <h3 class = "user-name">Alejandro</h3>
@@ -232,6 +300,46 @@
                 </div>
             </div>
             </div>
+
+
+            <section class = "section-accordion">
+              <div class="container-accordion">
+                <div class="accordion">
+                  <div class="accordion-item" id = "question1">
+                    <a class = "accordion-link" href="#question1">
+                      Pregunta?
+                      <i class="ion-md-add"></i>
+                      <i class="ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptate consequuntur modi sit voluptatem excepturi reiciendis nisi eos necessitatibus molestias. Aliquam suscipit id sapiente deleniti blanditiis numquam repellat possimus quidem!</p>
+                    </div>
+                  </div>
+                  <div class="accordion-item" id = "question2">
+                    <a class = "accordion-link" href="#question2">
+                      Pregunta?
+                      <i class="ion-md-add"></i>
+                      <i class="ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptate consequuntur modi sit voluptatem excepturi reiciendis nisi eos necessitatibus molestias. Aliquam suscipit id sapiente deleniti blanditiis numquam repellat possimus quidem!</p>
+                    </div>
+                  </div>
+                  <div class="accordion-item" id = "question3">
+                    <a class = "accordion-link" href="#question3">
+                      Pregunta?
+                      <i class="ion-md-add"></i>
+                      <i class="ion-md-remove"></i>
+                    </a>
+                    <div class="answer">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, voluptate consequuntur modi sit voluptatem excepturi reiciendis nisi eos necessitatibus molestias. Aliquam suscipit id sapiente deleniti blanditiis numquam repellat possimus quidem!</p>
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+              </div>
+            </section>     
             
 
 
@@ -289,7 +397,22 @@
               </footer>
                 
 
-      
+              <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+              <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+              <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+              <script>
+
+              $(window).scroll(function(){
+                if($("#menu").offset().top > 80){
+                  $("#menu").css("background", "linear-gradient(45deg, #1ae34d, #dd30dd)");
+                }
+                else{
+                  $("#menu").css("background", "");
+                }
+                
+              });
+              </script>
+
      
 </body>
 </html>
