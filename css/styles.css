@@ -12,6 +12,21 @@
 }
 
 
+.container-historial{
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+.container-historial h4{
+  color: #af3096;
+}
+
+.container-historial p{
+  text-align: justify;
+}
+
 
 .ubicacion{
     margin-left: auto;
@@ -63,6 +78,40 @@
     font-weight: bold;
 }
 
+.container-razon{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #3c4053;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+}
+
+.container-razondeser{
+  margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+    text-align: center;
+    
+}
+
+.container-razondeser h4{
+  text-align: center;
+  color: #e72cc2;
+}
+
+.container-razondeser p{
+  text-align: justify;
+  
+}
+
+.container-razondeser img{
+  width: 30%;
+  height: 5%;
+  padding-bottom: 2%;
+}
+
+
 
 
 
@@ -84,11 +133,38 @@
 }
 
 .container-adopcion{
-    background-color: #eceeef;
+    
     margin-top: 5%;
     padding-top: 2%;
 }
 
+.container-ley{
+  background-color: #3c4053;
+  font-size: 1rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: rgba(255, 255, 255, 1);
+  width: 100%;
+}
+
+.container-leyes{
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  
+}
+.container-leyes p{
+  text-align: justify;
+}
+
+.container-leyes h2{
+  color: #e72cc2;
+}
+
+.container-leyes h5{
+  color: #e72cc2;
+
+}
 
 .galeria-container{
     background: #eceeef;
@@ -98,10 +174,17 @@
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
     padding-top: 5%;
     padding-bottom: 2%;
   }
+
+.galeria h4{
+  color: #af3096;
+}
+
+.galeria p{
+  text-align: justify;
+}
 
 .title-galeria{
     color:#af3096;
@@ -204,7 +287,7 @@
 
 .heading{
     font-size: 60px;
-    color: black;
+    color: #e72cc2;
     text-align: center;
 }
 
@@ -218,7 +301,7 @@
 }
 
 .heading span{
-    font-style: italic;
+    
     font-size: 30px;
 }
 
@@ -261,6 +344,20 @@
     font-size: 16px;
     margin-top: 20px;
     text-align: justify;
+}
+
+.container-importancia-refugio{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-importancia-refugio h4{
+  color: #af3096;
+}
+
+.container-importancia-refugio p{
+  text-align: justify;
 }
 
 @media only screen and (max-width: 1200px){
@@ -432,7 +529,7 @@
 
 .section-accordion{
   width:100%;
-  height: 100vh;
+  height: 110vh;
   background-color: #3c4053;
   display:flex;
   align-items:center;
