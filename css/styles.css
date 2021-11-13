@@ -171,6 +171,10 @@ filter:brightness(1);
     padding-top: 2%;
 }
 
+.container-adopcion img{
+width: 80%;
+}
+
 .container-ley{
   background-color: #3c4053;
   font-size: 1rem;
@@ -421,12 +425,6 @@ filter:brightness(1);
     }
 
     
-
-  
-
-  
-    
-
     .heading span{
       font-size: 20px;
     }
@@ -679,6 +677,21 @@ filter:brightness(1);
       width: 90%;
     }
 
+    .container-razondeser img{
+      width: 60%;
+      height: 15%;
+      padding-bottom: 2%;
+    }
+
+    
+.container-introduccion .imagen-introduccion{
+  width: 60%;
+  height: 15%;
+  padding-bottom: 2%;
+  
+
+}
+
   
   
     .content-info{
@@ -692,7 +705,6 @@ filter:brightness(1);
       position: relative;
       width: 103.8%;
       height: 85vh;
-      background: linear-gradient(45deg, #1ae34d, #dd30dd);
       background-blend-mode: screen;
   }
   
