@@ -317,9 +317,18 @@ width: 80%;
 }
 
 .container-staff{
-    font-size: 60px;
+    font-size: 20px;
     color: black;
+    text-align: center;
 }
+
+.container-staff h3{
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+
 
 
 .heading{
@@ -352,6 +361,10 @@ width: 80%;
     flex-basis: 260px;
 }
 
+.profile span {
+  display: block;
+}
+
 .profile .profile-img{
     height: 260px;
     width: 260px;
@@ -380,7 +393,7 @@ width: 80%;
 .profile p{
     font-size: 16px;
     margin-top: 20px;
-    text-align: justify;
+    text-align: center;
 }
 
 .container-importancia-refugio{
