@@ -200,7 +200,12 @@ width: 80%;
 
 .container-leyes h5{
   color: #e72cc2;
+  
 
+}
+
+.container-leyes .ley{
+  text-decoration: none;
 }
 
 .galeria-container{
@@ -291,6 +296,13 @@ width: 80%;
     font-weight: bold;
 }
 
+.subtitle-info-adopcion{
+  padding-top: 2%;
+  color: #e72cc2;
+  font-style: italic;
+  font-weight:bold;
+}
+
 .info-adopcion p{
     text-align: justify;
     
@@ -366,8 +378,8 @@ width: 80%;
 }
 
 .profile .profile-img{
-    height: 260px;
-    width: 260px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     cursor: pointer;
     transition: 400ms;
